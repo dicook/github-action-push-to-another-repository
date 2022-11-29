@@ -18,4 +18,4 @@ git init
 git add . 
 git commit -m "build website"
 git remote add origin "https://$GITHUB_USERNAME:$API_TOKEN_GITHUB@github.com/$GITHUB_USERNAME/$GITHUB_REPO.git"
-git push -u --force origin "$DST_BRANCH"
+git push -u --force origin "HEAD:$DST_BRANCH"
